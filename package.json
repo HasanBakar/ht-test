@@ -7,10 +7,25 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HasanBakar/ht-test.git"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "components",
+    "ui-library",
+    "design-system",
+    "typescript",
+    "modern",
+    "responsive",
+    "lightweight",
+    "customizable"
+  ],
   "author": "Abu bakar",
   "license": "ISC",
-  "description": "",
+  "description": "React component library built with Tailwind CSS and TypeScript.",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
