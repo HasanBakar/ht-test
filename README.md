@@ -72,3 +72,4 @@ The HT Test package is licensed under the MIT License.
 
 # Support
 If you have any questions or need help with the HT Test package, please open an issue on GitHub or contact me directly.
+# Contact: [✉](bakar.pbc@gmail.com)
