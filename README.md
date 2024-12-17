@@ -9,6 +9,7 @@ npm install ht-test
 ```
 ## Usage
 To use the components in your React application, import them like so:
+### Button
 ```javascript
 import { Button } from 'ht-test';
 
@@ -21,6 +22,18 @@ function App() {
 }
 ```
 
+### Navbar
+```javascript
+import { Navbar } from 'ht-test';
+
+function App() {
+  return (
+    <div> 
+      <Navbar />  
+    </div>
+  )
+}
+```
 ## Components
 The HT Test package includes the following components:
 
@@ -32,8 +45,9 @@ The HT Test package includes the following components:
 - Table
 Each component is customizable using Tailwind CSS classes.
 
-## Customization
+# Customization
 To customize the components, you can use Tailwind CSS classes. For example, to change the color of the Button component, you can add the bg-blue-500 class:
+## Button
 ```javascript
 import { Button } from 'ht-test';
 
@@ -45,10 +59,9 @@ function App() {
   );
 }
 ```
-# Navbar component
+## Navbar 
 
-The HT Test package includes a Navbar component, which can be used to display navigation links.
-
+To customize the components, you can use Tailwind CSS classes. For example, to change the color of the Navbar component, you can add the tailwindcss class:
 To use the Navbar component, import it like so:
 
 ```javascript
