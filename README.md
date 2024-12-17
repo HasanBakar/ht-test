@@ -22,6 +22,19 @@ function App() {
 }
 ```
 
+### Navbar
+```javascript
+import { Navbar } from 'ht-test';
+
+function App() {
+  return (
+    <div> 
+      <Navbar />  
+    </div>
+  )
+}
+```
+
 ## Components
 The HT Test package includes the following components:
 
@@ -48,19 +61,6 @@ function App() {
 }
 ```
 ### Navbar 
-
-```javascript
-import { Navbar } from 'ht-test';
-
-function App() {
-  return (
-    <div> 
-      <Navbar />  
-    </div>
-  )
-}
-```
-
 To customize the components, you can use Tailwind CSS classes. For example, to change the color of the Navbar component, you can add the tailwindcss class:
 To use the Navbar component, import it like so:
 
@@ -175,6 +175,8 @@ const Navbar: React.FC = () => {
 
 export default Navbar;
 ```
+
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the HT Test package, please fork the repository and submit a pull request.
 ## License
